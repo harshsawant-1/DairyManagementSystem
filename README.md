@@ -1,2 +1,56 @@
-# DairyManagementSytem
- Dairy Farm Shop Management System (DFSMS) The Dairy Farm Shop Management System (DFSMS) is a web-based application designed to streamline and automate the operations of dairy shops. This system helps manage products, categories, companies, and sales, while also generating invoices and reports.  Features Dashboard: Provides a summary of categories, companies, products, and sales. Category Management: Add, edit, and delete product categories. Company Management: Add, edit, and delete company information. Product Management: Add, edit, and delete products. Search and Cart: Search for products, add them to the cart, and generate invoices/receipts. Invoices: View and manage all generated invoices/receipts. Reports: Generate sales reports based on date ranges. Profile Management: Update admin profile, change password, and recover password. Technologies Used Language: PHP 5.6, PHP 7.x Database: MySQL 5.x User Interface: HTML, AJAX, jQuery, JavaScript Web Browser Compatibility: Mozilla Firefox, Google Chrome, Microsoft Edge, Opera and Brave Browser: XAMPP. How to Run Download and extract the project files. Copy the dfsms folder to your web server's root directory (e.g., xampp/htdocs for XAMPP). Open PHPMyAdmin and create a database named dfsms. Import the dfsms.sql file from the SQL folder. Access the application via http://localhost/dfsms. Admin Credentials Username: admin Password: Admin@123
+# Dairy Management System (DMS)
+
+Dairy Management System (DMS) is a web-based application designed to manage dairy farm shops efficiently. The system includes features for managing products, orders, customers, and more.
+
+# Installation Instructions
+
+# 1. Download the Zip File
+- Download the project zip file from the repository.
+
+# 2. Extract the File
+- Extract the downloaded zip file.
+
+# 3. Copy the dfsms Folder
+- Copy the `dfsms` folder.
+
+# 4. Paste the Folder in the Root Directory
+- For **XAMPP**: Paste inside `xampp/htdocs`.
+
+# 5. Open PHPMyAdmin
+- Open your web browser and go to [PHPMyAdmin](http://localhost/phpmyadmin).
+
+# 6. Create a Database
+- Create a new database with the name `dfsms`.
+
+# 7. Import the SQL File
+- Import the `dfsms.sql` file located in the `SQL file` folder inside the extracted zip package.
+
+# 8. Run the Script
+- Open your web browser and go to [http://localhost/dfsms](http://localhost/dfsms).
+
+# Changing the Admin Password
+- Login using the admin credentials.
+- Click on the sidebar option to change the administrator password.
+
+# Admin Credentials
+- **Username**: admin
+- **Password**: Admin@123
+
+# Technologies Used
+- **Frontend**: HTML, CSS, JavaScript along with PHP
+- **Backend**: PHP
+- **Database**: MySQL
+
+# Contributing
+- Fork the repository.
+- Create a new branch (`git checkout -b feature-branch`).
+- Make your changes and commit them (`git commit -m 'Add some feature'`).
+- Push to the branch (`git push origin feature-branch`).
+- Open a Pull Request.
+
+# License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any issues or suggestions, feel free to contact us at [harshsawant114@gmail.com].
+
